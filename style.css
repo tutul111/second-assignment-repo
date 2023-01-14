@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
 }
 .architects{
-    margin-left: 228px;
+    margin-left: 180px;
     margin-top: 50px;
     font-weight: 700;
     font-size: 45px;
@@ -19,7 +19,7 @@ body{
 .head-list{
     display: flex;
     gap: 40px;
-    margin-right: 240px;
+    margin-right: 180px;
     margin-top: 60px;
     font-weight: 500;
     font-size: 18px;
@@ -60,7 +60,7 @@ body{
 .team-work{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    justify-content: start;
     margin-left: 220px;
     margin-right: 220px;
 }
@@ -69,5 +69,5 @@ body{
     height: 280px;
 }
 .others{
-    
+    padding: 300px 0px 0px 0px;
 }

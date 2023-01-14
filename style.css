@@ -79,11 +79,27 @@ body{
     margin-top: 170px;
     margin-right: 220px;
 }
+.other{
+    font-weight: 500;
+    font-size: 30px;
+}
+.other-pra{
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+.quick{
+    color: #727272;
+}
+.list{
+    color: #FF900E;
+}
 /* Section-2 Add Team Work End */
 /* Section-3 Add Futures */
 .future{
     display: flex;
     margin-top: 150px;
+    margin-bottom: 80px;
 }
 .future-pra{
     margin-left: 220px;
@@ -104,6 +120,10 @@ body{
     background-color: #FFFFFF;
     border-radius: 10px;
 }
+.dexktop{
+    font-weight: 600;
+    font-size: 20px;
+}
 .future-img img{
     width: 520px;
     height: 860px;
@@ -111,3 +131,56 @@ body{
     margin-top: 60px;
 }
 /* Section-3 Add Futures End */
+.some-facts{
+    margin-left: 220px;
+}
+.some{
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.icon{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #FF900E;
+    background-color: #FFFFFF;
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.all-sponsors{
+    text-align: center;
+}
+.sponsors{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 60px;
+}
+.site{
+    width: 165.83px;
+    height: 50px;
+}
+
+
+.footer{
+    margin-top: 70px;
+    text-align: center;
+    width: 950px;
+    height: 100px;
+    background-color: #FF900E;
+    margin-left: 220px;
+    border-radius: 8px;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* Header Start */
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.architects{
+    margin-left: 228px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.head-list{
+    display: flex;
+    gap: 40px;
+    margin-right: 240px;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* Header End */
+.container{
+    text-align: center;
+}
+.banner-head{
+    font-weight: 700;
+    font-size: 55px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.banner-pragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.explore{
+    width: 180px;
+    height: 64px;
+    margin-top: 30px;
+    background-color: orange;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.banner img{
+    width: 950px;
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+/* Section-2 Add Team Work  */
+.team-work{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.team img{
+    width: 280px;
+    height: 280px;
+}
+.others{
+    
+}

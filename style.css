@@ -44,9 +44,9 @@ body{
     width: 180px;
     height: 64px;
     margin-top: 30px;
-    background-color: coral;
+    background-color: #FF900E;;
     border-radius: 5px;
-    border-color: coral;
+    border-color: #FF900E;;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -80,3 +80,34 @@ body{
     margin-right: 220px;
 }
 /* Section-2 Add Team Work End */
+/* Section-3 Add Futures */
+.future{
+    display: flex;
+    margin-top: 150px;
+}
+.future-pra{
+    margin-left: 220px;
+}
+.enjoy{
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;;
+}
+.enjoy-pra{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.box{
+    width: 400px;
+    height: 140px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.future-img img{
+    width: 520px;
+    height: 860px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+/* Section-3 Add Futures End */

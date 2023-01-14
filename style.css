@@ -2,7 +2,6 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: rgba(255, 144, 14, 0.1);
 }
 /* Header Start */
 .head{
@@ -130,7 +129,19 @@ body{
     margin-right: 200px;
     margin-top: 60px;
 }
+.button{
+    width: 160px;
+    height: 100px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
 /* Section-3 Add Futures End */
+/* Section-4 Add Some Facts */
 .some-facts{
     margin-left: 220px;
 }
@@ -159,7 +170,8 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+/* Section-4 Add Some Facts End */
+/*Section-5 Add Our Sponsors */
 .all-sponsors{
     text-align: center;
 }
@@ -169,18 +181,30 @@ body{
     gap: 25px;
     margin-top: 60px;
 }
+.all{
+    font-weight: 700;
+    font-size: 45px;
+}
+.all-pra{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
 .site{
     width: 165.83px;
     height: 50px;
 }
-
-
+/*Section-5 Add Our Sponsors End*/
+/* Footer */
 .footer{
     margin-top: 70px;
     text-align: center;
     width: 950px;
     height: 100px;
-    background-color: #FF900E;
-    margin-left: 220px;
+    color: #727272;
+    background-color: rgba(255, 144, 14, 0.1);
+    margin-left: 240px;
     border-radius: 8px;
+    background-position: center;
 }
+/* Footer End */

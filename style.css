@@ -300,6 +300,9 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    .contact{
+        margin: 0px;
+    }
     .massege{
         text-align: center;
         width: 200px;

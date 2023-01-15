@@ -137,7 +137,6 @@ body{
     font-weight: 700;
     font-size: 16px;
     border-radius: 8px;
-
 }
 
 /* Section-3 Add Futures End */
@@ -200,11 +199,81 @@ body{
     margin-top: 70px;
     text-align: center;
     width: 950px;
-    height: 60px;
+    height: 100px;
     color: #727272;
     background-color: rgba(255, 144, 14, 0.1);
-    margin-left: 240px;
+    margin-left: 260px;
     border-radius: 8px;
     position: absolute;
 }
 /* Footer End */
+
+@media screen and (max-width: 576px){
+    .head{
+        flex-direction: column;
+    }
+    .architects{
+        margin: 0px;
+        text-align: center;
+    }
+    .head-list{
+        flex-direction: column;
+        gap: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+    .banner-head{
+        margin: 0px;
+
+    }
+    .banner img{
+        width: 350px;
+        height: 200px;
+    }
+    .tram-work{
+        flex-direction: column;
+    } 
+    .team-pic{
+        margin: 0;
+        grid-template-columns: repeat(1, 4fr);
+    }   
+    .work{
+        margin: 0px;
+        text-align: center;
+    }
+    .future{
+        flex-direction: column;
+    }
+    .future-pra{
+        margin: 0px;
+    }
+    .future-img{
+        align-items: center;
+    }
+    .future-img img{
+        width: 380px;
+        height: 560px;
+    }
+    .some-facts{
+        margin: 0px;
+        text-align: center;
+    }
+    .column{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+    .sponsors{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        margin-top: 40px;
+        margin-left: 0px;
+        align-items: 0px;
+        width: 360px;
+    }
+
+    
+
+}

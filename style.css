@@ -194,6 +194,39 @@ body{
     height: 50px;
 }
 /*Section-5 Add Our Sponsors End*/
+.contact{
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+    margin-left: 160px;
+    margin-right: 150px;
+    border-radius: 8px;
+}
+.massege{
+    font-weight: 700;
+    font-size: 30px;
+    color: #181818;
+}
+.name{
+    width: 261px;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.text{
+    margin-top: 10px; 
+    border-radius: 5px;
+}
+.submit{
+    height: 44px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 120px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 /* Footer */
 .footer{
     margin-top: 70px;
@@ -208,7 +241,7 @@ body{
 }
 /* Footer End */
 
-@media screen and (max-width: 576px){
+@media only screen and (max-width: 576px){
     .head{
         flex-direction: column;
     }
@@ -267,13 +300,14 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    .massege{
+        text-align: center;
+        width: 200px;
+    }
     .footer{
         margin-top: 40px;
         margin-left: 0px;
         align-items: 0px;
         width: 360px;
     }
-
-    
-
 }
